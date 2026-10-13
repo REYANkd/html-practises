@@ -1,0 +1,26 @@
+:root{
+    --1: rgb(57, 54, 54);
+}
+body{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  white;
+    background-color: var(--1);
+}
+img{
+    height: 100px;
+    width: 100px;
+    object-fit:  cover;
+    border: 2px solid rgb(174, 167, 144);
+
+}
+.w{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
